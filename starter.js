@@ -107,7 +107,27 @@ return strNew
 
 // BONUS: Days of the week
 
-
+switch(dayOfTheWeek) {
+  case Monday:
+    alert("Energize!")
+    break;
+  case Tuesday:
+    alert("Just getting started!")
+    break;
+  case Wednesday:
+    alert("Half way through")
+    break;
+  case Thursday:
+    alert("Almost there!")
+    break;
+  case Friday, Satuday, Sunday:
+  alert("Weee!")
+  break;
+  default:
+    alert("Huh? Sorry, didnt get that.")
+  break;
+    
+}
 
 // BONUS: Let's take the Subway
 
